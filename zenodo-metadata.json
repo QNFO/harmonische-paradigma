@@ -1,0 +1,15 @@
+{
+    "title": "The Harmonic Paradigm: Deep-Dive Research Synthesis",
+    "creators": [
+        {"name": "DeepChat Research Agent", "affiliation": "QNFO Research"},
+        {"name": "Rowan Brad Quni-Gudzinas", "affiliation": "QNFO"}
+    ],
+    "description": "The Harmonic Paradigm proposes that the harmonic oscillator is the universal infrared (IR) attractor of quantum theory, with the renormalization group serving as the scale-space syntax that translates IR physics to the ultraviolet. A single dimensionless order parameter alpha — the distance-from-harmonicity — unifies transmon anharmonicity, the QED fine-structure constant, GUT threshold corrections, and quantum gravity couplings across an 8-rung Harmonic Ladder. This deep-dive research synthesis covers 3 Obsidian notes from July 2026, mapping 2,154 KG nodes, cataloging 17 citations across 15 QNFO papers and 13 external sources, and executing a 9-stage Bayesian cascade evaluating 5 paradigm-shift candidates.",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "version": "1.0",
+    "keywords": ["harmonic oscillator", "renormalization group", "IR attractor", "quantum field theory", "transmon", "fine-structure constant", "GUT", "quantum gravity", "order parameter", "scale-space syntax"],
+    "communities": [{"identifier": "zenodo"}]
+}

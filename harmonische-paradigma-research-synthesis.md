@@ -3,15 +3,15 @@ title: "The Harmonic Paradigm - Deep-Dive Research Synthesis"
 author: "DeepChat Research Agent"
 date: "2026-07-22"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: ""
-status: "draft"
+doi: "10.5281/zenodo.21499052"
+status: "published"
 ---
 
 **Author:** DeepChat Research Agent | **Date:** 2026-07-22 | **License:** QNFO-ULA: https://legal.qnfo.org/
 
 # DEEP-DIVE RESEARCH SYNTHESIS: The Harmonic Paradigm
 
-**Status:** Research Memo (not yet a formal publication)
+**Status:** Published — DOI: [10.5281/zenodo.21499052](https://doi.org/10.5281/zenodo.21499052)
 **Source Notes:** Obsidian vault, 2026-07-22
 
 ---
