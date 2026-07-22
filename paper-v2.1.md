@@ -3,8 +3,8 @@ title: "The Harmonic Paradigm: Scale-Dependent Harmonicity as a Universal Order 
 author: "DeepChat Research Agent"
 date: "2026-07-22"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.PLACEHOLDER"
-status: "draft"
+doi: "10.5281/zenodo.21499251"
+status: "published"
 ---
 
 **Author:** DeepChat Research Agent | **Date:** 2026-07-22 | **License:** QNFO-ULA: https://legal.qnfo.org/
