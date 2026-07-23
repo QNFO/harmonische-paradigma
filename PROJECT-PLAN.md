@@ -82,37 +82,37 @@ To formalize, publish, and deploy the **Harmonic Paradigm**: a unified theoretic
 - **WBS 4.9:** Adversarial review ✓
 - **Deliverable:** `artifacts/strategic-memo.md`
 
-### Phase 5: Formal Publication — PENDING
-- **WBS 5.1:** Publication Language Gate scan → clean paper.md
-- **WBS 5.2:** Self-evaluation rubric → all ≥ 3, avg ≥ 4.0
-- **WBS 5.3:** Unicode-LateX preprocessing → `paper.build.md`
-- **WBS 5.4:** Pandoc+XeLaTeX PDF build → `paper.pdf`
-- **WBS 5.5:** PDF rendering verification (`check-pdf.py`)
-- **WBS 5.6:** Credential scan on paper.md
-- **WBS 5.7:** Provenance bundle creation
-- **WBS 5.8:** Zenodo upload + metadata + publish
-- **WBS 5.9:** DOI verification (independent re-query)
+### Phase 5: Formal Publication — PUBLISHED (DOI 10.5281/zenodo.21505993)
+- **WBS 5.1:** Publication Language Gate scan → clean paper.md ✓
+- **WBS 5.2:** Self-evaluation rubric → all ≥ 3, avg ≥ 4.0 ✓
+- **WBS 5.3:** Unicode-LaTeX preprocessing → `paper.build.md` ✓
+- **WBS 5.4:** Pandoc+XeLaTeX PDF build → `paper.pdf` ✓
+- **WBS 5.5:** PDF rendering verification (`check-pdf.py`) ✓
+- **WBS 5.6:** Credential scan on paper.md ✓
+- **WBS 5.7:** Provenance bundle creation ✓
+- **WBS 5.8:** Zenodo upload + metadata + publish ✓
+- **WBS 5.9:** DOI verification (independent re-query) ✓
 - **Deliverable:** `harmonische-paradigma-research-synthesis.pdf`, Zenodo DOI, `PROVENANCE-BUNDLE.zip`
 
-### Phase 6: D1 Deployment — PENDING
-- **WBS 6.1:** Cloudflare account/discovery
-- **WBS 6.2:** D1 living-paper check-then-write
-- **WBS 6.3:** Papers-server Worker verification
-- **Deliverable:** D1 living-paper row, HTTP 200 from papers.qnfo.org
+### Phase 6: D1 Deployment — LIVE (2026-07-23)
+- **WBS 6.1:** Cloudflare account/discovery ✓
+- **WBS 6.2:** D1 living-paper check-then-write ✓ (record inserted, verified)
+- **WBS 6.3:** Papers-server Worker verification ✓ (HTTP 200 from papers.qnfo.org/papers/harmonische-paradigma-kappa-siit-v4)
+- **Deliverable:** D1 living-paper row, papers.qnfo.org serving paper
 
-### Phase 7: Dissemination — PENDING
-- **WBS 7.1:** Papers-server URL HTTP 200 verification
-- **WBS 7.2:** SEO audit (robots.txt, sitemap, meta tags, Schema.org)
-- **WBS 7.3:** Buffer social media posting (Twitter, LinkedIn, Bluesky)
-- **Deliverable:** Verified social posts in Buffer queue
+### Phase 7: Dissemination — PARTIAL
+- **WBS 7.1:** Papers-server URL HTTP 200 verification ✓
+- **WBS 7.2:** SEO audit (robots.txt, sitemap, meta tags, Schema.org) ✓ (in qnfo-gateway Worker)
+- **WBS 7.3:** Buffer social media posting ✓ Twitter | ⛔ Bluesky (queue full) | ⛔ LinkedIn (queue full)
+- **Deliverable:** Twitter post (id=6a625ea98ba0a753be0729fe, scheduled). Bluesky/LinkedIn require user to clear Buffer queue.
 
-### Phase 8: Core Distribution — PENDING
-- **WBS 8.1:** GitHub push + tag + release with DOI link
-- **WBS 8.2:** R2 archive sync (paper.md, paper.pdf, provenance bundle)
-- **WBS 8.3:** Knowledge Graph seed (Paper node + BELONGS_TO edges)
-- **WBS 8.4:** Internet Archive snapshot
-- **WBS 8.5:** DNSLink (optional)
-- **Deliverable:** All 4 core layers verified (GitHub, Zenodo, R2, D1/KG)
+### Phase 8: Core Distribution — PARTIAL
+- **WBS 8.1:** GitHub push + tag + release with DOI link ✓ (tag v4.0-closeout)
+- **WBS 8.2:** R2 archive sync → not verified (wrangler version doesn't support object list)
+- **WBS 8.3:** Knowledge Graph seed → blocked by Cloudflare WAF on graph-api
+- **WBS 8.4:** Internet Archive snapshot → deferred
+- **WBS 8.5:** DNSLink (optional) → deferred
+- **Deliverable:** GitHub + Zenodo (2/4 layers verified). R2 + D1/KG: partial.
 
 ---
 
@@ -136,17 +136,15 @@ To formalize, publish, and deploy the **Harmonic Paradigm**: a unified theoretic
 | D-0.1 | PROJECT-PLAN.md | 0 | Markdown | `PROJECT-PLAN.md` | GitHub | in-progress |
 | D-0.2 | README.md | 0 | Markdown | `README.md` | GitHub | in-progress |
 | D-0.3 | .gitignore | 0 | Text | `.gitignore` | GitHub | complete |
-| D-5.1 | Research Synthesis (md) | 5 | Markdown | `harmonische-paradigma-research-synthesis.md` | GitHub, Zenodo, R2 | draft |
-| D-5.2 | Research Synthesis (PDF) | 5 | PDF | `harmonische-paradigma-research-synthesis.pdf` | GitHub, Zenodo, R2 | verified* |
-| D-5.3 | Provenance Bundle | 5 | ZIP | `PROVENANCE-BUNDLE.zip` | Zenodo | pending |
-| D-6.1 | D1 living-paper record | 6 | SQL row | `living-paper.papers` | Cloudflare D1 | pending |
-| D-6.2 | R2 archive copy | 6 | Files | `releases/2026/07/harmonische-paradigma/` | Cloudflare R2 | pending |
-| D-7.1 | Social media posts | 7 | Buffer posts | — | Buffer (Twitter/LinkedIn/Bluesky) | pending |
-| D-8.1 | KG Paper node | 8 | Graph node | — | QNFO Knowledge Graph | pending |
-| D-8.2 | Internet Archive snapshot | 8 | URL | — | archive.org | pending |
-| D-8.3 | Zenodo DOI | 5 | DOI | — | Zenodo | pending |
-
-*PDF was built in prior session and verified with check-pdf.py — rebuild needed after paper.md cleanup.
+| D-5.1 | Research Synthesis (md) | 5 | Markdown | `harmonische-paradigma-research-synthesis.md` | GitHub, Zenodo, R2 | published |
+| D-5.2 | Research Synthesis (PDF) | 5 | PDF | `harmonische-paradigma-research-synthesis.pdf` | GitHub, Zenodo, R2 | published |
+| D-5.3 | Provenance Bundle | 5 | ZIP | `PROVENANCE-BUNDLE.zip` | Zenodo | published |
+| D-6.1 | D1 living-paper record | 6 | SQL row | `living-paper.papers` | Cloudflare D1 | live |
+| D-6.2 | R2 archive copy | 6 | Files | `releases/2026/07/harmonische-paradigma/` | Cloudflare R2 | not-verified |
+| D-7.1 | Social media posts | 7 | Buffer posts | — | Buffer (Twitter/LinkedIn/Bluesky) | partial |
+| D-8.1 | KG Paper node | 8 | Graph node | — | QNFO Knowledge Graph | blocked |
+| D-8.2 | Internet Archive snapshot | 8 | URL | — | archive.org | deferred |
+| D-8.3 | Zenodo DOI | 5 | DOI | — | Zenodo | published |
 
 ---
 
