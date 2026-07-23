@@ -181,3 +181,125 @@ To formalize, publish, and deploy the **Harmonic Paradigm**: a unified theoretic
 | Version | Date | Phase | Description |
 |---------|------|-------|-------------|
 | v0.1-phase0 | 2026-07-22 | 0 | Project initialization, scaffold, core claim lock |
+| v4.0-closeout | 2026-07-22 | 5 | V4.0 published (DOI 10.5281/zenodo.21505993), RG program closed |
+| cal01-v1.0 | 2026-07-23 | 9 | CAL-01 measurement program document created, Phase 0 initiated |
+
+---
+
+## §8 CAL-01 — Transmon Anharmonicity Measurement Sub-Program
+
+**Parent:** Harmonic Paradigm V4.0 (DOI 10.5281/zenodo.21505993)
+**Document:** `CAL-01-transmon-measurement-program.md`
+**Deadline:** 2028-Q4
+**Status:** ACTIVE — Phase 0 complete, Phase 1 (Device Design) pending
+**Independent of:** Retracted RG-universality mechanism. ν is a static fabrication ratio.
+
+### 8.1 Charter
+
+CAL-01 is a **pure metrology program**: measure the transmon anharmonicity parameter
+ν(E_J/E_C) across a systematic device series with E_J/E_C > 500 to test:
+
+$$\nu(E_J/E_C) = \frac{1}{2} + c \cdot \left(\frac{E_C}{E_J}\right)^\nu, \quad \nu \approx 0.5$$
+
+**Falsification criterion:** ν ∉ [0.40, 0.60] for E_J/E_C > 500.
+
+The deep-transmon regime (E_J/E_C > 500) has never been systematically measured.
+This is standard transmon physics (Koch et al. 2007) — a harmonic-oscillator
+ground-truth measurement, not a test of any cross-scale hypothesis.
+
+### 8.2 Phases
+
+#### Phase 0: Literature Survey — ✅ COMPLETE (2026-07-23)
+- **WBS 0.1:** Search arXiv for transmon anharmonicity systematic surveys
+- **WBS 0.2:** Search PRL/PRA/PRB/APL for ν(E_J/E_C) measurements
+- **WBS 0.3:** Search Nature/Nature Physics for deep-transmon characterization
+- **WBS 0.4:** Extract Purkayastha et al. (2026) parameters
+- **WBS 0.5:** Compile annotated bibliography
+- **WBS 0.6:** Gap confirmation: verify no existing E_J/E_C > 500 data
+- **Deliverable:** `artifacts/cal01-literature-survey.md`
+
+#### Phase 1: Device Design — [PENDING]
+- **WBS 1.1:** Finalize 8-device series parameters (E_J/E_C = 50–1500)
+- **WBS 1.2:** Design junction geometries for target E_J
+- **WBS 1.3:** Design capacitor geometries for target E_C
+- **WBS 1.4:** Electromagnetic simulation (Sonnet/HFSS)
+- **WBS 1.5:** Fabrication mask layout
+- **Deliverable:** `artifacts/cal01-device-design.md`, GDSII mask files
+
+#### Phase 2: Fabrication — [PENDING]
+- **WBS 2.1:** Partner identification (foundry or academic cleanroom)
+- **WBS 2.2:** First fabrication run (20 devices)
+- **WBS 2.3:** Room-temperature screening (I_c, C_Σ at 300K)
+- **WBS 2.4:** Yield analysis; iterate if needed
+- **Deliverable:** Fabricated devices, screening report
+
+#### Phase 3: Baseline Measurements (E_J/E_C = 50–200) — [PENDING]
+- **WBS 3.1:** Dilution refrigerator cooldown
+- **WBS 3.2:** Two-tone spectroscopy for ω₀₁, ω₁₂
+- **WBS 3.3:** Ramsey interferometry for precision ω₀₁
+- **WBS 3.4:** ν extraction for low-ratio devices
+- **Deliverable:** `artifacts/cal01-baseline-measurements.md`, dataset
+
+#### Phase 4: Deep-Transmon Measurements (E_J/E_C > 500) — [PENDING]
+- **WBS 4.1:** High-resolution spectroscopy for small anharmonicity
+- **WBS 4.2:** Systematic error control (AC Stark, thermal, TLS)
+- **WBS 4.3:** ν extraction for high-ratio devices
+- **WBS 4.4:** Cross-validation with independent E_J/E_C determination
+- **Deliverable:** `artifacts/cal01-deep-transmon-measurements.md`, full dataset
+
+#### Phase 5: Data Analysis — [PENDING]
+- **WBS 5.1:** 3-model fit (Koch null / free-exponent / self-consistent)
+- **WBS 5.2:** AICc model comparison
+- **WBS 5.3:** MCMC parameter inference
+- **WBS 5.4:** Systematic error propagation
+- **WBS 5.5:** Falsification assessment
+- **Deliverable:** `artifacts/cal01-analysis.md`, analysis code, figures
+
+#### Phase 6: Publication — [PENDING]
+- **WBS 6.1:** Draft manuscript (PRL/PRB format)
+- **WBS 6.2:** Internal review
+- **WBS 6.3:** arXiv preprint
+- **WBS 6.4:** Journal submission
+- **Deliverable:** arXiv preprint, journal submission
+
+#### Phase 7: Dissemination — [PENDING]
+- **WBS 7.1:** Zenodo deposit with full dataset
+- **WBS 7.2:** D1 living-paper record
+- **WBS 7.3:** Social media announcement
+- **Deliverable:** Zenodo DOI, D1 record
+
+### 8.3 Milestones
+
+| Milestone | Phase | Target Date | Gate Criteria |
+|-----------|-------|-------------|---------------|
+| M-CAL-0 | 0 | 2026-Q4 | Literature survey complete, gap confirmed |
+| M-CAL-1 | 1 | 2027-Q1 | Device design finalized, masks ready |
+| M-CAL-2 | 2 | 2027-Q2 | Devices fabricated and screened |
+| M-CAL-3 | 3 | 2027-Q3 | ν measured for E_J/E_C = 50–200 |
+| M-CAL-4 | 4 | 2028-Q2 | ν measured for E_J/E_C = 500–1500 |
+| M-CAL-5 | 5 | 2028-Q3 | Analysis complete, falsification assessed |
+| M-CAL-6 | 6 | 2028-Q4 | Paper submitted/published |
+
+### 8.4 Deliverables
+
+| ID | Deliverable | Phase | Format | Path |
+|----|------------|-------|--------|------|
+| D-CAL-0 | Literature survey | 0 | Markdown | `artifacts/cal01-literature-survey.md` |
+| D-CAL-1 | Device design document | 1 | Markdown + GDSII | `artifacts/cal01-device-design.md` |
+| D-CAL-2 | Fabrication report | 2 | Markdown | `artifacts/cal01-fabrication-report.md` |
+| D-CAL-3 | Baseline measurements | 3 | Markdown + CSV | `artifacts/cal01-baseline-data.csv` |
+| D-CAL-4 | Deep-transmon measurements | 4 | Markdown + CSV | `artifacts/cal01-deep-transmon-data.csv` |
+| D-CAL-5 | Analysis report | 5 | Markdown + Python | `artifacts/cal01-analysis.md` |
+| D-CAL-6 | Publication manuscript | 6 | PDF | `paper-cal01.pdf` |
+| D-CAL-7 | Zenodo dataset | 7 | DOI + ZIP | Zenodo |
+
+### 8.5 Risk Register
+
+| ID | Risk | Phase | Likelihood | Impact | Mitigation |
+|----|------|-------|------------|--------|-----------|
+| R-CAL-01 | No existing systematic ν(E_J/E_C) studies found (gap confirmed — good) | 0 | High | Positive | Confirms novelty; proceed to Phase 1 |
+| R-CAL-02 | Purkayastha et al. (2026) already covers E_J/E_C > 500 | 0 | Low | High | Adjust scope to fill remaining gaps |
+| R-CAL-03 | Anharmonicity too small to resolve at E_J/E_C > 1000 | 4 | Medium | Medium | Lower ceiling to E_J/E_C = 750 if needed |
+| R-CAL-04 | Fabrication yield too low for deep-transmon designs | 2 | Medium | High | Multiple fabrication runs; partner with experienced foundry |
+| R-CAL-05 | Competing group publishes first | 6 | Low | Medium | Preprint early; Phase 3 results publishable alone |
+| R-CAL-06 | ν outside [0.40, 0.60] — prediction falsified | 5 | Low | High | Publish regardless; falsification is a valid scientific result |
