@@ -1,10 +1,11 @@
 {
     "concept_doi": "10.5281/zenodo.21499051",
-    "latest_deposit_id": "21499507",
+    "latest_deposit_id": "21505993",
     "versions": [
         {"doi": "10.5281/zenodo.21499052", "deposit_id": "21499052", "tag": "v1.0", "published_at": "2026-07-22"},
         {"doi": "10.5281/zenodo.21499190", "deposit_id": "21499190", "tag": "v2.0", "published_at": "2026-07-22"},
         {"doi": "10.5281/zenodo.21499251", "deposit_id": "21499251", "tag": "v2.1", "published_at": "2026-07-22"},
-        {"doi": "10.5281/zenodo.21499507", "deposit_id": "21499507", "tag": "v3.0", "published_at": "2026-07-22", "note": "Structural retraction of RG-universality mechanism; see V3.0 changelog"}
+        {"doi": "10.5281/zenodo.21499507", "deposit_id": "21499507", "tag": "v3.0", "published_at": "2026-07-22"},
+        {"doi": "10.5281/zenodo.21505993", "deposit_id": "21505993", "tag": "v4.0", "published_at": "2026-07-22", "note": "Kappa/SIIT cross-validation; formal closeout of research program"}
     ]
 }
