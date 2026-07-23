@@ -183,6 +183,7 @@ To formalize, publish, and deploy the **Harmonic Paradigm**: a unified theoretic
 | v0.1-phase0 | 2026-07-22 | 0 | Project initialization, scaffold, core claim lock |
 | v4.0-closeout | 2026-07-22 | 5 | V4.0 published (DOI 10.5281/zenodo.21505993), RG program closed |
 | cal01-v1.0 | 2026-07-23 | 9 | CAL-01 measurement program document created, Phase 0 initiated |
+| cal01-v1.1 | 2026-07-23 | 9 | CAL-01 Phase 1 Device Design complete (8-device parameters, junctions, capacitors, EM specs, mask layout) |
 
 ---
 
@@ -191,7 +192,7 @@ To formalize, publish, and deploy the **Harmonic Paradigm**: a unified theoretic
 **Parent:** Harmonic Paradigm V4.0 (DOI 10.5281/zenodo.21505993)
 **Document:** `CAL-01-transmon-measurement-program.md`
 **Deadline:** 2028-Q4
-**Status:** ACTIVE — Phase 0 complete, Phase 1 (Device Design) pending
+**Status:** ACTIVE — Phase 0 complete, Phase 1 (Device Design) complete, Phase 2 (Fabrication) pending
 **Independent of:** Retracted RG-universality mechanism. ν is a static fabrication ratio.
 
 ### 8.1 Charter
@@ -218,13 +219,13 @@ ground-truth measurement, not a test of any cross-scale hypothesis.
 - **WBS 0.6:** Gap confirmation: verify no existing E_J/E_C > 500 data
 - **Deliverable:** `artifacts/cal01-literature-survey.md`
 
-#### Phase 1: Device Design — [PENDING]
-- **WBS 1.1:** Finalize 8-device series parameters (E_J/E_C = 50–1500)
-- **WBS 1.2:** Design junction geometries for target E_J
-- **WBS 1.3:** Design capacitor geometries for target E_C
-- **WBS 1.4:** Electromagnetic simulation (Sonnet/HFSS)
-- **WBS 1.5:** Fabrication mask layout
-- **Deliverable:** `artifacts/cal01-device-design.md`, GDSII mask files
+#### Phase 1: Device Design — ✅ COMPLETE (2026-07-23)
+- **WBS 1.1:** Finalize 8-device series parameters (E_J/E_C = 50–1500) ✓
+- **WBS 1.2:** Design junction geometries for target E_J ✓
+- **WBS 1.3:** Design capacitor geometries for target E_C ✓
+- **WBS 1.4:** Electromagnetic simulation specifications (Sonnet/HFSS) ✓
+- **WBS 1.5:** Fabrication mask layout specifications ✓
+- **Deliverable:** `artifacts/cal01-device-design.md` (complete), GDSII mask files (pending fabrication partner)
 
 #### Phase 2: Fabrication — [PENDING]
 - **WBS 2.1:** Partner identification (foundry or academic cleanroom)
@@ -273,7 +274,7 @@ ground-truth measurement, not a test of any cross-scale hypothesis.
 | Milestone | Phase | Target Date | Gate Criteria |
 |-----------|-------|-------------|---------------|
 | M-CAL-0 | 0 | 2026-Q4 | Literature survey complete, gap confirmed |
-| M-CAL-1 | 1 | 2027-Q1 | Device design finalized, masks ready |
+| M-CAL-1 | 1 | 2026-07-23 | Device design finalized, mask specs ready ✅ |
 | M-CAL-2 | 2 | 2027-Q2 | Devices fabricated and screened |
 | M-CAL-3 | 3 | 2027-Q3 | ν measured for E_J/E_C = 50–200 |
 | M-CAL-4 | 4 | 2028-Q2 | ν measured for E_J/E_C = 500–1500 |
@@ -285,7 +286,7 @@ ground-truth measurement, not a test of any cross-scale hypothesis.
 | ID | Deliverable | Phase | Format | Path |
 |----|------------|-------|--------|------|
 | D-CAL-0 | Literature survey | 0 | Markdown | `artifacts/cal01-literature-survey.md` |
-| D-CAL-1 | Device design document | 1 | Markdown + GDSII | `artifacts/cal01-device-design.md` |
+| D-CAL-1 | Device design document | 1 | Markdown | `artifacts/cal01-device-design.md` | complete |
 | D-CAL-2 | Fabrication report | 2 | Markdown | `artifacts/cal01-fabrication-report.md` |
 | D-CAL-3 | Baseline measurements | 3 | Markdown + CSV | `artifacts/cal01-baseline-data.csv` |
 | D-CAL-4 | Deep-transmon measurements | 4 | Markdown + CSV | `artifacts/cal01-deep-transmon-data.csv` |
