@@ -1,0 +1,151 @@
+{
+  "created": "2026-07-24T13:32:39.472113+00:00",
+  "modified": "2026-07-24T13:32:40.017431+00:00",
+  "id": 21534747,
+  "conceptrecid": "21499051",
+  "doi": "10.5281/zenodo.21534747",
+  "conceptdoi": "10.5281/zenodo.21499051",
+  "doi_url": "https://doi.org/10.5281/zenodo.21534747",
+  "metadata": {
+    "title": "CAL-03: CMB Log-Periodogram \u2014 Efimov/DSI Search in Planck 2018 Data",
+    "doi": "10.5281/zenodo.21534747",
+    "publication_date": "2026-07-24",
+    "description": "Search for log-periodic oscillations in the Planck 2018 CMB TT power spectrum with periods ln(q) = 1 (Efimov, q = e) and ln(q) = ln(pi) = 1.14. Physically motivated by the Efimov effect and discrete scale invariance (DSI), independent of the retracted Harmonic Paradigm logistic beta-function mechanism. Includes both binned (83 bins) and full unbinned spectrum (2471 pts) analyses, with 200 LCDM+noise Monte Carlo simulations. Result: H0 NOT REJECTED \u2014 global MC p-value = 0.38, B95 &lt; 0.004 amplitude constraint. Contains 8 figures, 4 data files (including Planck 2018 full TT spectrum), 2 analysis pipelines, and full report. All data self-contained for reproducibility.",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "DeepChat Research Agent",
+        "affiliation": "QNFO Research"
+      },
+      {
+        "name": "Rowan Brad Quni-Gudzinas",
+        "affiliation": "QNFO"
+      }
+    ],
+    "keywords": [
+      "CMB",
+      "log-periodic oscillations",
+      "Efimov effect",
+      "discrete scale invariance",
+      "Planck 2018",
+      "Lomb-Scargle periodogram",
+      "cosmology",
+      "power spectrum",
+      "renormalization group",
+      "limit cycle"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.21505993",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-preprint",
+        "scheme": "doi"
+      }
+    ],
+    "version": "CAL-03",
+    "license": "cc-by-4.0",
+    "imprint_publisher": "Zenodo",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "prereserve_doi": {
+      "doi": "10.5281/zenodo.21534747",
+      "recid": 21534747
+    }
+  },
+  "title": "CAL-03: CMB Log-Periodogram \u2014 Efimov/DSI Search in Planck 2018 Data",
+  "links": {
+    "self": "https://zenodo.org/api/records/21534747",
+    "html": "https://zenodo.org/records/21534747",
+    "doi": "https://doi.org/10.5281/zenodo.21534747",
+    "parent_doi": "https://doi.org/10.5281/zenodo.21499051",
+    "badge": "https://zenodo.org/badge/doi/10.5281%2Fzenodo.21534747.svg",
+    "conceptbadge": "https://zenodo.org/badge/doi/10.5281%2Fzenodo.21499051.svg",
+    "files": "https://zenodo.org/api/records/21534747/files",
+    "bucket": "https://zenodo.org/api/files/389418c8-799b-481f-bb85-21cfbea8a885",
+    "thumb250": "https://zenodo.org/record/21534747/thumb250",
+    "thumbs": {
+      "10": "https://zenodo.org/record/21534747/thumb10",
+      "50": "https://zenodo.org/record/21534747/thumb50",
+      "100": "https://zenodo.org/record/21534747/thumb100",
+      "250": "https://zenodo.org/record/21534747/thumb250",
+      "750": "https://zenodo.org/record/21534747/thumb750",
+      "1200": "https://zenodo.org/record/21534747/thumb1200"
+    },
+    "latest_draft": "https://zenodo.org/api/deposit/depositions/21534747",
+    "latest_draft_html": "https://zenodo.org/deposit/21534747",
+    "publish": "https://zenodo.org/api/deposit/depositions/21534747/actions/publish",
+    "edit": "https://zenodo.org/api/deposit/depositions/21534747/actions/edit",
+    "discard": "https://zenodo.org/api/deposit/depositions/21534747/actions/discard",
+    "newversion": "https://zenodo.org/api/deposit/depositions/21534747/actions/newversion",
+    "record": "https://zenodo.org/api/records/21534747",
+    "record_html": "https://zenodo.org/record/21534747",
+    "latest": "https://zenodo.org/api/records/21534747/versions/latest",
+    "latest_html": "https://zenodo.org/records/21534747/latest"
+  },
+  "record_id": 21534747,
+  "owner": 1328013,
+  "files": [
+    {
+      "id": "569dd87e-5ae3-4d85-9738-a3d9f1c40695",
+      "filename": "PROVENANCE-BUNDLE-cal03.zip",
+      "filesize": 1300628,
+      "checksum": "f557dff2cf5e53f2cdf67e4645aca78e",
+      "links": {
+        "self": "https://zenodo.org/api/records/21534747/files/569dd87e-5ae3-4d85-9738-a3d9f1c40695",
+        "download": "https://zenodo.org/api/records/21534747/draft/files/PROVENANCE-BUNDLE-cal03.zip/content"
+      }
+    },
+    {
+      "id": "297719da-7590-44c6-be5d-463a43384122",
+      "filename": "README.md",
+      "filesize": 1897,
+      "checksum": "51ec4682d365659b0c5c19f31b86c3f6",
+      "links": {
+        "self": "https://zenodo.org/api/records/21534747/files/297719da-7590-44c6-be5d-463a43384122",
+        "download": "https://zenodo.org/api/records/21534747/draft/files/README.md/content"
+      }
+    },
+    {
+      "id": "a66b38ac-422e-4902-9d24-4c71a2b19e53",
+      "filename": "refs-v4.bib",
+      "filesize": 2713,
+      "checksum": "b2a30a5bf95f3042b752e37ccb3364a1",
+      "links": {
+        "self": "https://zenodo.org/api/records/21534747/files/a66b38ac-422e-4902-9d24-4c71a2b19e53",
+        "download": "https://zenodo.org/api/records/21534747/draft/files/refs-v4.bib/content"
+      }
+    },
+    {
+      "id": "193696a0-f447-463c-a835-d5f906c6c20f",
+      "filename": "paper-v4.0.md",
+      "filesize": 21928,
+      "checksum": "5376cc5e79e2ac9f559d2a3af2fc5feb",
+      "links": {
+        "self": "https://zenodo.org/api/records/21534747/files/193696a0-f447-463c-a835-d5f906c6c20f",
+        "download": "https://zenodo.org/api/records/21534747/draft/files/paper-v4.0.md/content"
+      }
+    },
+    {
+      "id": "14dbcd76-444e-4dbd-9e25-94dce5eaa938",
+      "filename": "paper-v4.0.pdf",
+      "filesize": 92228,
+      "checksum": "ae0a18fd2fb54a42f162bdd12c4e085d",
+      "links": {
+        "self": "https://zenodo.org/api/records/21534747/files/14dbcd76-444e-4dbd-9e25-94dce5eaa938",
+        "download": "https://zenodo.org/api/records/21534747/draft/files/paper-v4.0.pdf/content"
+      }
+    },
+    {
+      "id": "2fe8fb99-0ae6-4f6c-b22b-7caba6446b99",
+      "filename": "PROVENANCE-BUNDLE-v4.0.zip",
+      "filesize": 105446,
+      "checksum": "dab95e4e81cabcae2363da618ca15e6a",
+      "links": {
+        "self": "https://zenodo.org/api/records/21534747/files/2fe8fb99-0ae6-4f6c-b22b-7caba6446b99",
+        "download": "https://zenodo.org/api/records/21534747/draft/files/PROVENANCE-BUNDLE-v4.0.zip/content"
+      }
+    }
+  ],
+  "state": "done",
+  "submitted": true
+}

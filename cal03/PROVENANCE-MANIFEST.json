@@ -1,0 +1,94 @@
+{
+  "bundle": "PROVENANCE-BUNDLE-cal03.zip",
+  "created_at": "2026-07-24T13:27:29Z",
+  "parent_doi": "10.5281/zenodo.21499051",
+  "parent_version": "v4.0 (10.5281/zenodo.21505993)",
+  "files": [
+    {
+      "path": "cal03\\CAL-03-cmb-log-periodogram.md",
+      "sha256": "86fbdc6ad57a31c823b101555913b6206bfabc7a58948833e1394517b5891cf3",
+      "size": 22079
+    },
+    {
+      "path": "cal03\\cal03_log_periodogram.py",
+      "sha256": "0306718024c1ddcd424c12070d6f0a5a2cab85b4fd5c8096390f81e2fa32d2c6",
+      "size": 15554
+    },
+    {
+      "path": "cal03\\cal03_log_periodogram_full.py",
+      "sha256": "0236bbf2e4bc101d10d4a143fdca8dd8af1bd532eee9d93006bfb43dc402cc29",
+      "size": 21513
+    },
+    {
+      "path": "cal03\\README.md",
+      "sha256": "e3268387131e88408434b005a11dc4f2a45981f0867d900c6e2e55b6cebba410",
+      "size": 2392
+    },
+    {
+      "path": "cal03\\results.json",
+      "sha256": "e790b5ec799a41ced872b6591087646b6529dc3d00a347dc32887103e97d3d4c",
+      "size": 3661
+    },
+    {
+      "path": "cal03\\results_full.json",
+      "sha256": "987d29d7550009d32727eb8e73faef37a76c3ec02e503fd9472f3a7d855ba353",
+      "size": 3102
+    },
+    {
+      "path": "cal03\\data\\COM_PowerSpect_CMB-TT-full_R3.01.txt",
+      "sha256": "ccf3113604020536f6f13ccf51680a7316ad0f32da558eee7f625e613bdd5522",
+      "size": 170547
+    },
+    {
+      "path": "cal03\\data\\planck_tt_bestfit.txt",
+      "sha256": "50eecd4422e22026070bdacf9fa8a7e7ef3badf4fa50fffea040df669715cf51",
+      "size": 205647
+    },
+    {
+      "path": "cal03\\data\\planck_tt_binned.txt",
+      "sha256": "ed2b8b51b033e668e661f6cf4eb7705f15bcaf358189dfc4a4481cc7020130cd",
+      "size": 7143
+    },
+    {
+      "path": "cal03\\figures\\01_full_spectrum.png",
+      "sha256": "3616dc2bd01af3eb4ead09850a9a73ad43d85f33f7805bea12907bad84c53b34",
+      "size": 182337
+    },
+    {
+      "path": "cal03\\figures\\01_spectrum_residuals.png",
+      "sha256": "e79e5528d09ea4a7959decf33c8092d4396d20448588f2d2477df09381b59171",
+      "size": 125042
+    },
+    {
+      "path": "cal03\\figures\\02_log_periodogram.png",
+      "sha256": "0790908b61ac89c1ac9e153693c30903709726789192a98047d8e3c0a0b4ec5e",
+      "size": 108166
+    },
+    {
+      "path": "cal03\\figures\\02_log_periodogram_full.png",
+      "sha256": "8052075829df5c5d9329825bc1093bb6533075f876ea0b382f0154e2a651bbcf",
+      "size": 123604
+    },
+    {
+      "path": "cal03\\figures\\03_mc_null.png",
+      "sha256": "3ab6986c259e63486f5f8d8c0af339bb72db64c14c2f5411b264baced5c7baca",
+      "size": 37755
+    },
+    {
+      "path": "cal03\\figures\\04_template_fits.png",
+      "sha256": "7aa93c58ded200aee6bf99241766c21305bdcc7f6bf49ae5e00e6aa51e927e20",
+      "size": 142951
+    },
+    {
+      "path": "cal03\\figures\\04_template_fits_full.png",
+      "sha256": "6d853e75e39f45b06c9080814a7125b2a295b0b5f71424fff5026f924dd4f934",
+      "size": 484539
+    },
+    {
+      "path": "cal03\\figures\\05_frequency_domain_full.png",
+      "sha256": "3842c3e3bdf292b2ced30038c44515a82416927debfc58ca7f8500ff39e21091",
+      "size": 76905
+    }
+  ],
+  "total_uncompressed": 1732937
+}
