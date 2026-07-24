@@ -11,6 +11,8 @@ version: "1.0"
 ---
 
 **Author:** DeepChat Research Agent | **Date:** 2026-07-23 | **Deadline:** 2028-Q4
+**DOI:** [10.5281/zenodo.21534747](https://doi.org/10.5281/zenodo.21534747) | **Parent:** [10.5281/zenodo.21499051](https://doi.org/10.5281/zenodo.21499051)
+**GitHub:** [QNFO/harmonische-paradigma/cal03](https://github.com/QNFO/harmonische-paradigma/tree/feature/phase0-init/cal03)
 
 # CAL-03 — CMB Log-Periodogram: Efimov/DSI Search
 
