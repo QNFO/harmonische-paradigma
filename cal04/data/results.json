@@ -1,0 +1,33 @@
+{
+  "scenario_sm": {
+    "best_mu_GeV": 10972248017623.125,
+    "chi2": 12.583558767410262,
+    "converges_2sigma": false,
+    "deviations": [
+      0.028874490827656016,
+      -0.06434079214898136,
+      3.546630132062737
+    ],
+    "tau_p_yr": 7.731034691033691e+21
+  },
+  "scenario_mssm": {
+    "MSUSY_GeV": 2000.0,
+    "best_mu_GeV": 8128825839859908.0,
+    "chi2": 0.9573512237390454,
+    "converges_2sigma": true,
+    "deviations": [
+      0.007246691590936629,
+      -0.017029373788427875,
+      0.9782682196761813
+    ],
+    "alpha_GUT": 0.03779509333609712,
+    "tau_p_yr_central": 9.169838479202325e+32,
+    "tau_p_range_low": 3.056612826400775e+32,
+    "tau_p_range_high": 2.750951543760697e+33
+  },
+  "experimental": {
+    "super_k_e_pi0_90CL": 2.4e+34,
+    "hk_sensitivity_e_pi0": 1e+35
+  },
+  "verdict": "MILD TENSION \u2014 SM does not converge without new physics; MSSM converges but SUSY not seen at LHC; proton decay prediction consistent with limits"
+}
