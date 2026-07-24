@@ -1,0 +1,94 @@
+{
+  "analysis": "CAL-03 CMB Log-Periodogram — FULL UNBINNED SPECTRUM",
+  "data": "Planck 2018 TT full (COM_PowerSpect_CMB-TT-full_R3.01.txt, local copy in cal03-data/)",
+  "data_source_url": "https://irsa.ipac.caltech.edu/data/Planck/release_3/ancillary-data/cosmoparams/COM_PowerSpect_CMB-TT-full_R3.01.txt",
+  "date": "2026-07-23",
+  "n_pts_full": 2507,
+  "n_pts_analysis": 2471,
+  "ell_range": [30, 2500],
+  "log_span": 4.4228,
+  "cycles_efimov": 4.4,
+  "cycles_pi": 3.9,
+  "chi2_dof": 1.027,
+  "residuals_rms": 177.3,
+  "n_log_grid": 1000,
+  "n_frequencies": 5000,
+  "mc_significance": {
+    "max_power_obs": 0.008239,
+    "null_median": 0.007547,
+    "null_68pct": 0.008822,
+    "null_95pct": 0.015620,
+    "null_99pct": 0.024009,
+    "null_99_7pct": 0.030501,
+    "p_value_global": 0.38,
+    "n_sims": 200
+  },
+  "target_results": {
+    "efimov_lnq1": {
+      "name": "ln(q)=1 (Efimov, q=e)",
+      "period": 1.0,
+      "q": 2.718281828459045,
+      "frequency": 1.0003,
+      "ls_power": 0.002854,
+      "single_fap": 0.2405,
+      "template_r": -0.0472,
+      "template_p": 0.1355,
+      "freq_mc_p": 0.200,
+      "freq_null_median": 0.001370
+    },
+    "pi_lnpi": {
+      "name": "ln(q)=ln(pi) (q=pi)",
+      "period": 1.1447298858494002,
+      "q": 3.141592653589793,
+      "frequency": 0.8737,
+      "ls_power": 0.005635,
+      "single_fap": 0.0598,
+      "template_r": -0.0563,
+      "template_p": 0.0753,
+      "freq_mc_p": 0.045,
+      "freq_null_median": 0.001264
+    },
+    "sqrt_pi": {
+      "name": "ln(q)=0.5 ln(pi) (q=sqrt(pi))",
+      "period": 0.5723649429247001,
+      "q": 1.772453850905516,
+      "frequency": 1.7474,
+      "ls_power": 0.002532,
+      "template_r": 0.0349,
+      "template_p": 0.2704
+    },
+    "pi_squared": {
+      "name": "ln(q)=2 ln(pi) (q=pi^2)",
+      "period": 2.2894597716988003,
+      "q": 9.869604401089358,
+      "frequency": 0.4364,
+      "ls_power": 0.000164,
+      "template_r": 0.0224,
+      "template_p": 0.4796
+    },
+    "efimov_lambda": {
+      "name": "ln(q)=ln(22.694) (Efimov lambda)",
+      "period": 3.122100572368798,
+      "q": 22.694,
+      "frequency": 0.3199,
+      "ls_power": 0.000129,
+      "template_r": -0.0185,
+      "template_p": 0.5594
+    }
+  },
+  "top_peaks": [
+    {"freq": 4.8556, "period": 0.2059, "q": 1.2287, "power": 0.0082},
+    {"freq": 0.8797, "period": 1.1367, "q": 3.1165, "power": 0.0056},
+    {"freq": 1.9586, "period": 0.5106, "q": 1.6662, "power": 0.0045},
+    {"freq": 1.1477, "period": 0.8713, "q": 2.3900, "power": 0.0041},
+    {"freq": 1.6787, "period": 0.5957, "q": 1.8143, "power": 0.0036}
+  ],
+  "comparison_with_binned": {
+    "binned_p_value": 0.09,
+    "binned_max_power": 0.184,
+    "full_p_value": 0.38,
+    "full_max_power": 0.00824,
+    "note": "Full spectrum has ~30x more points, giving much better noise characterization. The binned result (p=0.09) was inflated by noise averaging in the binning process. The full-spectrum result (p=0.38) is the definitive assessment."
+  },
+  "verdict": "H0 NOT REJECTED — no evidence for Efimov/DSI log-periodic oscillations in Planck 2018 CMB TT"
+}
